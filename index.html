@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,800;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <title>WoodWall</title>
+</head>
+<body>
+    <div class="wraaper">
+        <header class="header">
+            <div class="header__container">
+                <a class="header__logo">
+                    <img src="img/logo.svg" alt="logo">
+                </a>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#sponsors" class="menu__link">інфо</a></li>
+                            <li class="menu__item"><a href="#teams" class="menu__link">деталі</a></li>
+                            <li class="menu__item"><a href="#fund" class="menu__link">замовити</a></li>
+                         </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div class="page">
+            <main class="main">
+                <video class="background-main" autoplay muted loop id="myVideo">
+                    <source src="./img/NY-HERO-1.mp4" type="video/mp4">
+                  </video>
+                <div class="main__container">
+                    <div class="main__content">
+                        <h1 class="main__title title"> Акустичні софт панелі </h1>
+                        <div class="main__subtitle subtitle"> Усуньте реверберацію та створіть красивий природний вигляд. </div>
+                        <div class="main__button button"><a href=""> Дізнатись більше </a></div>
+                    </div>
+                </div>
+            </main>
+            <section class="galery">
+                <div class="galery__container">
+                    <div class="galery__title">Галерея</div>
+                    <div class="galery__subtitle">
+                        дозвольте нам надихнути вас
+                    </div>
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide"><img src="./img/wood.jpeg" alt=""></div>
+                          <div class="swiper-slide"><img src="./img/wood.jpeg" alt=""></div>
+                          <div class="swiper-slide"><img src="./img/wood.jpeg" alt=""></div>
+                          <div class="swiper-slide"><img src="./img/images.jpeg" alt=""></div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <!-- <div class="swiper-pagination"></div> -->
+                      
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                      </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__rows">
+                    <div class="footer__row">
+                        <div data-aos="fade-right" class="footer__about-us">
+                            <div class="footer__logo"><img src="./img/logo.svg" alt=""></div>
+                            <div class="footer__text">We made it our mission to create community everyday and
+                                grow
+                                meaningful, lasting relationships with our staff, our suppliers and of course
+                                you,
+                                our
+                                customers.</div>
+                        </div>
+                        <div data-aos="fade-left" class="footer__contacts">
+                            <div class="footer__contacts-title">Наші контакти</div>
+                            <div class="footer__contacts-mail">
+                                <a href=""><img src="./img/mail.svg" alt=""></a>
+                                <a href="#">alowishus@gmai.com</a>
+                            </div>
+                            <div class="footer__contacts-phone">
+                                <a href="tel:+380 98 049 2642"><img src="./img/phone.svg" alt=""></a>
+                                <a href="tel:+380 98 049 2642">+380 (98) 049 2642</a>
+                            </div>
+                            <div class="footer__contacts-social">
+                                <a href=""><img src="./img/facebook.svg" alt=""></a>
+                                <a href="https://instagram.com/woodwall.company?igshid=YmMyMTA2M2Y="><img src="./img/inst.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__row">
+                        <div data-aos="fade-right" class="footer__location">
+                            <div class="footer__location-title">Знайти нас</div>
+                            <div class="footer__location-text">
+                                Ви можете знайти нас за посилланням нижче    
+                            </div>
+                            <a href="https://goo.gl/maps/zM8DaoeTUvNz3Ks99" class="footer__location-find">Знайти мій WoodWoll</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

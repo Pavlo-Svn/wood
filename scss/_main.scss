@@ -1,0 +1,66 @@
+.main {
+}
+
+.background-main{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover !important;
+    object-fit: cover !important;
+    -o-object-position: center !important;
+    object-position: center !important;
+    z-index: -2;
+}
+.main__container {
+    
+}
+.main__content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 480px;
+}
+.main__title {
+}
+.title {
+    line-height: 140%;
+    font-size: 60px;
+    font-weight: 500;
+    color: #fff;
+    
+}
+.main__subtitle {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 400;
+    line-height: 140%;
+}
+.subtitle {
+}
+.main__button {
+}
+.button a{
+    display: inline-block;
+    background-color: #0e2f4f;
+    color: #efeff4;
+    padding: 19px 29px;
+    border-radius: 4px;
+    font-weight: 700;
+    border: 1px solid #0e2f4f;
+    cursor: pointer;
+    font-size: 17px;
+    letter-spacing: 3px;
+    transition: 0.2s linear;
+    &:hover{
+        background: rgb(255, 255, 255);
+        color: rgb(12, 9, 80);
+        border: 1px solid #000000;
+    }
+}
